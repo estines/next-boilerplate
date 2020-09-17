@@ -10,7 +10,7 @@ const Index = () => {
 
   useEffect(() => {
     dispatch(startClock());
-  }, [dispatch]);
+  }, []);
 
   return <Page title="Index Page" linkTo="/other" NavigateTo="Other Page" />;
 };
